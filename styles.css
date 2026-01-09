@@ -9,7 +9,6 @@
 }
 
 .container{
-      /* background-color:black ;  */
     max-width: 1600px;
     margin: 0 auto;
     background-color: #FFFFFF;
@@ -59,7 +58,6 @@ nav .menu{
 }
 
 #banner .banner-container{
-     /* background-color: blue;  */
      max-width: 1360px;
      margin: 0 auto;
     display: flex;
@@ -142,14 +140,11 @@ nav .menu{
 #notes .notes-container{
     max-width: 1360px;
     height: 153px;
-    
-    /* background-color: #30B868; */
-    margin: 0 auto;    
+     margin: 0 auto;    
 }
 
 #notes .notes-container .heading{
     max-width: 1360px;
-    /* background-color: #FFFFFF; */
     height: 117px;
 }
 #notes .notes-container .heading h1{
@@ -292,7 +287,6 @@ nav .menu{
 }
 .challenge .challenge-container .text-content .heading4{
     margin-bottom: 16px;
-    /* background-color:#30B868; */
 }
 .challenge .challenge-container .text-content h1{
     font-size: 40px;
@@ -365,6 +359,5 @@ nav .menu{
     margin-top: 110px;
     font-size: 16px;
     font-weight: 400;
-    color: #FAFAFA;
-    
+    color: #FAFAFA;  
 }
