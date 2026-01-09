@@ -218,3 +218,87 @@ nav .menu{
     padding-right: 24px;
     padding-bottom: 69.5px;
 }
+
+.second-hero{
+    padding: 120px;
+    width: 1600px;
+    height: 840px;
+    gap: 40px;
+    background-color: #FFFFFF;
+}
+.hero-container{
+    display: flex;
+    width: 1360px;
+    height: 600px;
+    align-items: center;
+    gap: 60px;
+    background-color: #FFFFFF;
+}
+.hero-container img{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+.hero-container .text-container .heading2{
+    font-size: 16px;
+    color: #30B868;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.hero-container .text-container .heading3{
+    width: 700px;
+    height: 117px;
+    margin-bottom: 16px;
+}
+.hero-container .text-container .heading3 h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-align: left;
+}
+.hero-container .text-container .para2{
+    margin-bottom: 40px;
+    width: 700px;
+    height: 60px;
+}
+.hero-container .text-container .para2 p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    text-align: left;
+}
+.hero-container .text-container .idea{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.challenge{
+    width: 1360px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 40px 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.challenge .challenge-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.challenge .challenge-container .text-content .heading4{
+    margin-bottom: 16px;
+    background-color:#30B868;
+}
+.challenge .challenge-container .text-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+    
+    
+}
