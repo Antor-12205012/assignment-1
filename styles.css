@@ -135,3 +135,86 @@ nav .menu{
     border-radius: 4px;
     background-color: #FFFFFF;
 }
+
+#notes{
+    max-width: 1600px;
+    height: 448px;
+}
+#notes .notes-container{
+    max-width: 1360px;
+    height: 153px;
+    
+    /* background-color: #30B868; */
+    margin: 0 auto;    
+}
+
+#notes .notes-container .heading{
+    max-width: 1360px;
+    /* background-color: #FFFFFF; */
+    height: 117px;
+}
+#notes .notes-container .heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-align: center;
+    padding-top: 69px;
+}
+#notes .notes-container .paragraph{
+    font-size: 16px;
+    color: #627382;
+    text-align: center;
+    margin-top: 25px;
+}
+#notes .card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1360px;
+    height: 300px;
+    margin-top: 44px;
+    gap: 24px;
+    margin-left: 50px;
+    
+}
+.card-section .card{
+    max-width: 322px;
+    height: 300px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8 0  #000000;
+
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.card .circle-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.card img{
+    width: 32px;
+    height: 32px;
+    
+} 
+.card-section h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card .para{
+    margin-top: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 69.5px;
+}
