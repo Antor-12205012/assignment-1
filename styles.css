@@ -43,6 +43,7 @@ nav .menu{
     width: 164px;
     height: 44px;
     border: none;
+    cursor: pointer;
     border-radius: 4px;
     margin-top: 24px ;
     margin-bottom: 24px;
@@ -99,6 +100,14 @@ nav .menu{
 .paragraph{
     margin-top: 16px;
 }
+
+ .vdo-btn:hover{
+    background: #627382;
+ }
+ .top-btn:hover{
+    background: #87c7cd;
+ }
+
 .l-button{
     margin-top: 32px;
     display: flex;
@@ -111,6 +120,7 @@ nav .menu{
     background-color: #30B868;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 600;
@@ -127,6 +137,7 @@ nav .menu{
     padding-bottom: 16.5px;
     display: inline-flex;
     gap: 2px;
+    cursor: pointer;
     align-items: center;
     border: none;
     border-radius: 4px;
@@ -342,18 +353,16 @@ nav .menu{
     justify-content: flex-end;
 }
 .footer-social a{
-    width: ;
-    height: ;
-    border-radius: ;
-    background-color: ;
-    color: ;
+    
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: ;
-    font-weight: ;
+    background: #FFFFFF;
+    border-radius: 50%;
+    gap: 10px;
 }
+
 .footer-bottom{
     text-align: center;
     margin-top: 110px;
