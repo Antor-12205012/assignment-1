@@ -293,12 +293,10 @@ nav .menu{
 }
 .challenge .challenge-container .text-content .heading4{
     margin-bottom: 16px;
-    background-color:#30B868;
+    /* background-color:#30B868; */
 }
 .challenge .challenge-container .text-content h1{
     font-size: 40px;
     font-weight: 700;
     padding-top: 80px;
-    
-    
 }
